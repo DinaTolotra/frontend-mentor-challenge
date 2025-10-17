@@ -9,8 +9,8 @@
 
 	--font-family: 'Outfit';
 
-	--font-size: 15px;
-	--font-size-small: 12px;
+	--font-size: 20px;
+	--font-size-small: 14px;
 
 	--font-weight: 400;
 	--font-weight-bold: 700;
@@ -23,7 +23,7 @@ html {
 }
 
 body {
-	background: var(--slate-300);
+	background: var(--white);
 }
 
 .card {
@@ -31,14 +31,15 @@ body {
 	width: fit-content;
 	text-align: center;
 	text-wrap: balance;
-	margin: 200px auto;
+	margin: auto;
+	margin-top: 5vh;
 	padding: 10px;
-	width: 200px;
+	width: 240px;
 	border-radius: 18px;
 }
 
 .card-image {
-	width: 200px;
+	width: 240px;
 	border-radius: 8px;
 }
 
@@ -59,4 +60,14 @@ body {
 }
 .attribution a {
 	color: hsl(228, 45%, 44%);
+}
+
+@media screen and (width >= 340px) {
+	body {
+		background: var(--slate-300);
+	}
+
+	.card {
+		margin-top: 25vh;
+	}
 }
