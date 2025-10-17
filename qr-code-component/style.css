@@ -17,7 +17,6 @@
 }
 
 html {
-	font-size: var(--font-size);
 	font-family: var(--font-family);
 	font-weight: var(--font-weight);
 	color: var(--slate-900);
@@ -45,6 +44,7 @@ body {
 
 .card-title {
 	font-weight: var(--font-weight-bold);
+	font-size: var(--font-size);
 }
 
 .card-body {
