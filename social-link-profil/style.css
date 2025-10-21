@@ -1,0 +1,160 @@
+:root {
+	--green: hsl(75, 94%, 57%);
+
+	--white: hsl(0, 0%, 100%);
+
+	--grey-700: hsl(0, 0%, 20%);
+	--grey-800: hsl(0, 0%, 12%);
+	--grey-900: hsl(0, 0%, 8%);
+
+	--font-family: 'Inter';
+
+	--font-size: 12px;
+	--font-size-lg: 20px;
+}
+
+.attribution {
+	font-size: 11px;
+	text-align: center;
+}
+
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
+
+/* Utility class */
+
+/* Background color */
+.bg-green {
+	background-color: var(--green);
+}
+
+.hover\:bg-green:hover {
+	background-color: var(--green);
+}
+
+.bg-grey-700 {
+	background-color: var(--grey-700);
+}
+
+.bg-grey-800 {
+	background-color: var(--grey-800);
+}
+
+.bg-grey-900 {
+	background-color: var(--grey-900);
+}
+
+/* Text color */
+.hover\:grey-900:hover {
+	color: var(--grey-900)
+}
+
+.white {
+	color: var(--white);
+}
+
+.green {
+	color: var(--green);
+}
+
+/* Font */
+.font-default {
+	font-family: var(--font-family);
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.font-md {
+	font-size: var(--font-size);
+}
+
+.font-lg {
+	font-size: var(--font-size-lg);
+}
+
+/* width and height */
+
+.w-6 {
+	width: 6em;
+}
+
+.w-22 {
+	width: 22em;
+}
+
+.w-100\% {
+	width: 100%;
+}
+
+.h-3 {
+	height: 3em;
+}
+
+.h-screen {
+	height: 100vh;
+}
+
+/* padding and margin */
+.p-0 {
+	padding: 0;
+}
+
+.p-3 {
+	padding: 3em;
+}
+
+.m-0 {
+	margin: 0;
+}
+
+.mt-1 {
+	margin-top: 1em;
+}
+
+.mb-1 {
+	margin-bottom: 1em;
+}
+
+.my-1 {
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+
+/* border */
+.border-0 {
+	border-width: 0;
+}
+
+.rounded {
+	border-radius: 8px;
+}
+
+.rounded-full {
+	border-radius: 50%;
+}
+
+/* display */
+.flex {
+	display: flex;
+}
+
+.flex-column {
+	flex-direction: column;
+}
+
+.content-center {
+	justify-content: center;
+}
+
+.items-center {
+	align-items: center;
+}
+
+/* cursor */
+.pointer {
+	cursor: pointer;
+}
